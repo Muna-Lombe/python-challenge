@@ -63,12 +63,12 @@ Below is the typical IBAN for Liechtenstein. It contains 21 characters. Below yo
 
 # IBAN validation should return the following:
 - ✔ IBAN: LI21088100002324013AA is VALID:
-    should have country code and checksum digit and <= Iban max length 34
+    - should have country code and checksum digit and <= Iban max length 34
 - ✔ IBAN checksum is VALID:
-    checksum should be int and valid digit for country
+    - checksum should be int and valid digit for country
 - ✔ IBAN respects Length standard for Liechtenstein (LI):
-    length should equal country standard
-✔ IBAN respects Format and Structure standard for Liechtenstein (LI):
+    - length should equal country standard
+- ✔ IBAN respects Format and Structure standard for Liechtenstein (LI):
     - should follow Liechtenstein format of:
         - 2 letters ISO country code
         - 2 digits IBAN check digits
