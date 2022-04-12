@@ -1,5 +1,5 @@
 -------------------------------------------------------------- IBAN VALIDATOR-------------------------------------------------------------
-# Intorduction
+# Introduction
  An IBAN validator, that works for IBANs from Liechtenstein
 
 # Files included
@@ -18,8 +18,9 @@
  - If valid check digit the program matches the IBAN with a regular expression to validate if it is Liechtenstein standard
 
 # How to use
-- run the code below in your terminal
-    python<your_version_number> testIban.py
+- run the code below in your terminal:
+
+    <$python[your_version_number] testIban.py>
 
 
 # IBAN Breakdown format and structure
